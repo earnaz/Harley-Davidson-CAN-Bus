@@ -87,7 +87,7 @@ All Packets
 550 (Leftside Handlebar)
 541 (rpm maybe)
 532
-530 (blinkers)
+530 (TurnSignals + Brakelight + FootBreak)
 5C0
 570 (Rightside handlebar)
 521
