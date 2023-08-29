@@ -39,3 +39,51 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
   MCP2515 GND -----> PowerPin GND Arudino
   MCP2515 VCC -----> PowerPin 5v Arudino
 ```
+
+----------------Packet Ids/ PIDS----------------
+```
+0x550 - All buttons on left side handlebar + clutch
+```
+```
+0x570 - All buttons on Right side handlebar + front brake
+```
+```
+0x544 - RPM MAYBE
+```
+```
+0x542 - Jiffy Stand
+```
+```
+0x541 - RPM MAYBE
+```
+```
+0x530 - Break Light, Turn Signals etc...
+```
+All Packets
+```
+547
+50A
+546
+500
+502
+503
+505
+501
+540
+531
+548
+5C1
+542 (kickstand)
+544 (rpm maybe)
+520
+550 (Leftside Handlebar)
+541 (rpm maybe)
+532
+530 (blinkers)
+5C0
+570 (Rightside handlebar)
+521
+543
+```
+
+
