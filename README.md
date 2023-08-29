@@ -45,6 +45,7 @@ Upload CanSniffer.ino to your arduino
 Run Serial Monitor to see if it worked
 Make sure to use 9600 baudrate in the serial monitor
 Check Device Manager in windows and make sure your bitrate for your comport is set to 9600
+My files are modified for 8mhz chrystal make sure your MCP2515 has the same or change it.
 ```
 
 ## Decoded Packets
