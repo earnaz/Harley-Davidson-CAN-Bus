@@ -5,7 +5,7 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
   the bike that was used in this project was a 2017 Forty Eight
 
 
-----------------Hardware tools used for this project was----------------
+----------------Hardware used----------------
  ```
   Arduino Uno board from aliexpress.
   MCP2515 Can Bus Driver Module from aliexpress.
@@ -15,7 +15,7 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
   ```
 
 
-----------------Software used in the project----------------
+----------------Software used----------------
  ```
   Arduino IDE
   CanSniffer_Gui from Adam Varga "https://github.com/adamtheone/canDrive" 
