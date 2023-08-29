@@ -29,7 +29,6 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
   DeutschConnector Pin 1 -----> MCP2515/CanHigh
   DeutschConnector Pin 3 -----> MCP2515/CanLow
 ```
-
 ```
   MCP2515 INT -----> DigitalPin 2 Arudino
   MCP2515 SCK -----> DigitalPin 13 Arudino
@@ -39,7 +38,16 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
   MCP2515 GND -----> PowerPin GND Arudino
   MCP2515 VCC -----> PowerPin 5v Arudino
 ```
-
+----------------Installation----------------
+```
+Install CAN library by Sandeep Mistry in arduino IDE
+Delete files in the CAN/SRC folder
+Replace the files with my CAN files
+Upload CanSniffer.ino to your arduino
+Run Serial Monitor to see if it worked
+Make sure to use 9600 baudrate in the serial monitor
+Check device manager in windows that the bitrate is 9600 on your arduino
+```
 ----------------Packet Ids/ PIDS----------------
 ```
 0x550 - All buttons on left side handlebar + clutch
