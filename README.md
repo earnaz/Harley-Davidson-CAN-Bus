@@ -75,30 +75,42 @@ Jiffystand UP (00 A0 00 00 00 00 00 00)
 ```
 ## All Packets
 ```
-547
-50A
-546
-500
-502
-503
-505
-501
-540
-531
-548
-5C1
-542 (kickstand)
-544 (rpm maybe)
-520
-550 (Leftside Handlebar)
-541 (rpm maybe)
-532
-530 (TurnSignals + Brakelight + FootBreak)
-5C0
-570 (Rightside handlebar)
-521
-543
+|547
+|50A
+|546
+|500
+|502
+|503
+|505
+|501
+|540
+|531
+|548
+|5C1
+|542 (kickstand)
+|544 (rpm maybe)
+|520
+|550 (Leftside Handlebar)
+|541 (rpm maybe)
+|532
+|530 (TurnSignals + Brakelight + FootBreak)
+|5C0
+|570 (Rightside handlebar)
+|521
+|543
 ```
 
 ![image](https://github.com/sofresh007/Harley-Davidson-CAN-Bus/assets/76256425/9332c610-d193-4497-af33-7e514bb32e6f)
+
+
+
+ID	Name	Length	Data
+1	CAN transceiver	4	3V3
+2	ESP32	4	3V3
+3	CAN transceiver	3	GND
+4	ESP32	3	GND
+5	CAN transceiver	3	CTX
+6	ESP32	6	GPIO_5
+7	CAN transceiver	3	CRX
+8	ESP32	6	GPIO_4
 
