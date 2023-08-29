@@ -30,8 +30,8 @@ Bike used in this project XL1200X Sportster Forty Eight 2017
 ```
   MCP2515 INT -----> DigitalPin 2 Arudino
   MCP2515 SCK -----> DigitalPin 13 Arudino
-  MCP2515 SI -----> DigitalPin 11 Arudino
-  MCP2515 SO -----> DigitalPin 12 Arudino
+  MCP2515 SI  -----> DigitalPin 11 Arudino
+  MCP2515 SO  -----> DigitalPin 12 Arudino
   MCP2515 SCK -----> DigitalPin 10 Arudino
   MCP2515 GND -----> PowerPin GND Arudino
   MCP2515 VCC -----> PowerPin 5v Arudino
