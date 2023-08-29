@@ -75,10 +75,11 @@ Jiffystand UP (00 A0 00 00 00 00 00 00)
 ```
 ## Decoded Packets
 
-| ID | Name             | Length | Changes |
+| ID | Name             | Length | Data    |
 | -: | :--------------- | ------ | :------ |
 | 550 | Handlebar Left  | 6-8    |         |
-| 542 | Jiffystand      | 8      | 1-bit   |
+| 542 | Jiffystand up   | 8      | 00 A0 00 00 00 00 00 00 |
+| 542 | Jiffystand down | 8     | 30 A0 00 00 00 00 00 00 |
 
 ![image](https://github.com/sofresh007/Harley-Davidson-CAN-Bus/assets/76256425/9332c610-d193-4497-af33-7e514bb32e6f)
 
