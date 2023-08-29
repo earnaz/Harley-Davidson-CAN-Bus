@@ -73,33 +73,7 @@ Jiffystand UP (00 A0 00 00 00 00 00 00)
 ```
 0x530 - Break Light, Turn Signals etc...
 ```
-## All Packets
-```
-|547
-|50A
-|546
-|500
-|502
-|503
-|505
-|501
-|540
-|531
-|548
-|5C1
-|542 (kickstand)
-|544 (rpm maybe)
-|520
-|550 (Leftside Handlebar)
-|541 (rpm maybe)
-|532
-|530 (TurnSignals + Brakelight + FootBreak)
-|5C0
-|570 (Rightside handlebar)
-|521
-|543
-```
-
+## Decoded Packets
 
 | ID | Name             | Length | Changes |
 | -: | :--------------- | ------ | :------ |
