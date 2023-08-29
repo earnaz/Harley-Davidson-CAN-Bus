@@ -22,9 +22,10 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
 
 
 ----------------Wiring----------------
+```
   DeutschConnector Pin 1 -----> MCP2515/CanHigh
   DeutschConnector Pin 3 -----> MCP2515/CanLow
-
+```
 
 ```
   MCP2515 INT -----> DigitalPin 2 Arudino
