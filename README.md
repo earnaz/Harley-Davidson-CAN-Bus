@@ -46,33 +46,7 @@ Run Serial Monitor to see if it worked
 Make sure to use 9600 baudrate in the serial monitor
 Check Device Manager in windows and make sure your bitrate for your comport is set to 9600
 ```
-## ID's / Packets
-```
-0x550 - All buttons on left side handlebar + clutch
-Horn     (02 00 02 00 00 00)
-Lowbeam  (00 00 02 00 00 00) / this packet is looping since low beam is always on
-HighBeam (08 00 02 00 00 00)
-Menu     (04 06 00 00 00 B4 00 FF)
-Clutch   (01 00 02 00 00 00)
 
-```
-```
-0x570 - All buttons on Right side handlebar + front brake
-```
-```
-0x544 - RPM MAYBE
-```
-```
-0x542 - Jiffy Stand
-Jiffystand Down (30 A0 00 00 00 00 00 00)
-Jiffystand UP (00 A0 00 00 00 00 00 00) 
-```
-```
-0x541 - RPM MAYBE
-```
-```
-0x530 - Break Light, Turn Signals etc...
-```
 ## Decoded Packets
 
 | ID | Name             | Length | Data    |
