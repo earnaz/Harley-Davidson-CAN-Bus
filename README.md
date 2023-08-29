@@ -50,7 +50,7 @@ Check Device Manager in windows and make sure your bitrate for your comport is s
 ```
 0x550 - All buttons on left side handlebar + clutch
 Horn     (02 00 02 00 00 00)
-Lowbeam  (00 00 02 00 00 00) / this packet is looping while not using anything on left handle bar.
+Lowbeam  (00 00 02 00 00 00) / this packet is looping since low beam is always on
 HighBeam (08 00 02 00 00 00)
 Menu     (04 06 00 00 00 B4 00 FF)
 Clutch   (01 00 02 00 00 00)
