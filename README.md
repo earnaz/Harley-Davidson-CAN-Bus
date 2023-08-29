@@ -1,6 +1,6 @@
 # Harley-Davidson-CAN-Bus
 
-#Reverse engineering the canbus system used in Harley Davidson bikes.
+Reverse engineering the canbus system used in Harley Davidson bikes.
 Bike used in this project XL1200X Sportster Forty Eight 2017
 
 ## Hardware used
