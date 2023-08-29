@@ -26,6 +26,7 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
   DeutschConnector Pin 3 -----> MCP2515/CanLow
 
 
+```
   MCP2515 INT -----> DigitalPin 2 Arudino
   MCP2515 SCK -----> DigitalPin 13 Arudino
   MCP2515 SI -----> DigitalPin 11 Arudino
@@ -33,3 +34,4 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
   MCP2515 SCK -----> DigitalPin 10 Arudino
   MCP2515 GND -----> PowerPin GND Arudino
   MCP2515 VCC -----> PowerPin 5v Arudino
+```
