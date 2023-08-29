@@ -43,6 +43,12 @@ Project about reverse engineering the canbus system on harley davidson bikes fro
 ----------------Packet Ids/ PIDS----------------
 ```
 0x550 - All buttons on left side handlebar + clutch
+Horn     (02 00 02 00 00 00)
+Lowbeam  (00 00 02 00 00 00) / this packet is looping while not using anything on left handle bar.
+HighBeam (08 00 02 00 00 00)
+Menu     (04 06 00 00 00 B4 00 FF)
+Clutch   (01 00 02 00 00 00)
+
 ```
 ```
 0x570 - All buttons on Right side handlebar + front brake
