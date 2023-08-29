@@ -18,7 +18,7 @@ Bike used in this project XL1200X Sportster Forty Eight 2017
   Arduino IDE
   CanSniffer_Gui from Adam Varga "https://github.com/adamtheone/canDrive" 
   (Python and other dependencies are required to run the CanSniffer_Gui Check his documentation)
-  Can_Sniffer_Arduino as source for the Arduino.
+  CanSniffer Arduino as source for the Arduino.
 ```
 
 
