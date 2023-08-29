@@ -100,17 +100,12 @@ Jiffystand UP (00 A0 00 00 00 00 00 00)
 |543
 ```
 
+
+| ID | Name             | Length | Changes |
+| -: | :--------------- | ------ | :------ |
+| 550 | Handlebar Left  | 6-8    |         |
+| 542 | Jiffystand      | 8      | 1-bit   |
+
 ![image](https://github.com/sofresh007/Harley-Davidson-CAN-Bus/assets/76256425/9332c610-d193-4497-af33-7e514bb32e6f)
 
-
-
-ID	Name	Length	Data
-1	CAN transceiver	4	3V3
-2	ESP32	4	3V3
-3	CAN transceiver	3	GND
-4	ESP32	3	GND
-5	CAN transceiver	3	CTX
-6	ESP32	6	GPIO_5
-7	CAN transceiver	3	CRX
-8	ESP32	6	GPIO_4
 
