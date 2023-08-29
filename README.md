@@ -1,10 +1,7 @@
 # Harley-Davidson-CAN-Bus
 
-
-Project about reverse engineering the canbus system on harley davidson bikes from 2014
-  the bike that was used in this project was a 2017 Forty Eight
-
-
+#Reverse engineering the canbus system used in Harley Davidson bikes.
+Bike used in this project is 2017 FORTY EIGHT
 ----------------Hardware used----------------
  ```
   Arduino Uno board from aliexpress.
