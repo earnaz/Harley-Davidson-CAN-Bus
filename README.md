@@ -58,6 +58,8 @@ Clutch   (01 00 02 00 00 00)
 ```
 ```
 0x542 - Jiffy Stand
+Jiffystand Down (30 A0 00 00 00 00 00 00)
+Jiffystand UP (00 A0 00 00 00 00 00 00) 
 ```
 ```
 0x541 - RPM MAYBE
