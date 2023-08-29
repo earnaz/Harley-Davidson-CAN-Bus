@@ -3,7 +3,7 @@
 #Reverse engineering the canbus system used in Harley Davidson bikes.
 Bike used in this project XL1200X Sportster Forty Eight 2017
 
-----------------Hardware used----------------
+## Hardware used
  ```
   Arduino Uno board from aliexpress.
   MCP2515 Can Bus Driver Module from aliexpress.
@@ -22,7 +22,7 @@ Bike used in this project XL1200X Sportster Forty Eight 2017
 ```
 
 
-----------------Wiring----------------
+## Wiring
 ```
   DeutschConnector Pin 1 -----> MCP2515/CanHigh
   DeutschConnector Pin 3 -----> MCP2515/CanLow
@@ -36,7 +36,7 @@ Bike used in this project XL1200X Sportster Forty Eight 2017
   MCP2515 GND -----> PowerPin GND Arudino
   MCP2515 VCC -----> PowerPin 5v Arudino
 ```
-----------------Installation----------------
+## Setup
 ```
 Install CAN library by Sandeep Mistry in arduino IDE
 Delete files in the CAN/SRC folder
@@ -46,7 +46,7 @@ Run Serial Monitor to see if it worked
 Make sure to use 9600 baudrate in the serial monitor
 Check Device Manager in windows and make sure your bitrate for your comport is set to 9600
 ```
-----------------Packet Ids/ PIDS----------------
+## ID's / Packets
 ```
 0x550 - All buttons on left side handlebar + clutch
 Horn     (02 00 02 00 00 00)
@@ -73,7 +73,7 @@ Jiffystand UP (00 A0 00 00 00 00 00 00)
 ```
 0x530 - Break Light, Turn Signals etc...
 ```
-All Packets
+## All Packets
 ```
 547
 50A
