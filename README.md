@@ -46,7 +46,7 @@ Replace the files with my CAN files
 Upload CanSniffer.ino to your arduino
 Run Serial Monitor to see if it worked
 Make sure to use 9600 baudrate in the serial monitor
-Check device manager in windows that the bitrate is 9600 on your arduino
+Check Device Manager in windows and make sure your bitrate for your comport is set to 9600
 ```
 ----------------Packet Ids/ PIDS----------------
 ```
