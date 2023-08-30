@@ -63,8 +63,8 @@ My files are modified for 8mhz chrystal make sure your MCP2515 has the same or c
 | 7E9 | ABS 2           | ?    | ** ** ** ** ** ** ** ** |
 | 7E2 | BCM             | ?    | ** ** ** ** ** ** ** ** |
 | 7EA | BCM 2           | ?    | ** ** ** ** ** ** ** ** |
-| 7EA | ECU             | ?    | ** ** ** ** ** ** ** ** |
-| 7EA | ECU 2           | ?    | ** ** ** ** ** ** ** ** |
+| 7E0 | ECU             | ?    | ** ** ** ** ** ** ** ** |
+| 7E8 | ECU 2           | ?    | ** ** ** ** ** ** ** ** |
 
 
 
