@@ -58,6 +58,14 @@ My files are modified for 8mhz chrystal make sure your MCP2515 has the same or c
 | 550 | Menu/Scroll     | 8    | 04 06 00 00 00 B4 00 FF |
 | 542 | Jiffystand up   | 8    | 00 A0 00 00 00 00 00 00 |
 | 542 | Jiffystand down | 8    | 30 A0 00 00 00 00 00 00 |
+| 7E1 | ABS             | ?    | ** ** ** ** ** ** ** ** |
+| 7E9 | ABS 2           | ?    | ** ** ** ** ** ** ** ** |
+| 7E2 | BCM             | ?    | ** ** ** ** ** ** ** ** |
+| 7EA | BCM 2           | ?    | ** ** ** ** ** ** ** ** |
+| 7EA | ECU             | ?    | ** ** ** ** ** ** ** ** |
+| 7EA | ECU 2           | ?    | ** ** ** ** ** ** ** ** |
+
+
 
 ![image](https://github.com/sofresh007/Harley-Davidson-CAN-Bus/assets/76256425/9332c610-d193-4497-af33-7e514bb32e6f)
 
