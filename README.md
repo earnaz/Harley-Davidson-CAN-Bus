@@ -53,7 +53,7 @@ My files are modified for 8mhz chrystal make sure your MCP2515 has the same or c
 | ID | Name             | Length | Data    |
 | -: | :--------------- | ------ | :------ |
 | 550 | Lowbeam(LOOP)   | 6    | 00 00 02 00 00 00 |
-| 550 | Highbeam 1-byte | 6    | 08 ** ** ** ** ** |
+| 550 | Highbeam        | 6    | 08 ** ** ** ** ** |
 | 550 | Clutch Pressed  | 6    | 01 ** ** ** ** ** |
 | 550 | Menu/Scroll     | 8    | 04 06 00 00 00 B4 00 FF |
 | 544 | Throttle        | 8    | C8 ** ** ** ** ** ** ** |
