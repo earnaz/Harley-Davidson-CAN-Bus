@@ -53,13 +53,15 @@ My files are modified for 8mhz chrystal make sure your MCP2515 has the same or c
 | ID | Name             | Length | Data    |
 | -: | :--------------- | ------ | :------ |
 | 550 | Lowbeam(LOOP)   | 6    | 00 00 02 00 00 00 |
-| 550 | Highbeam 1-byte  | 6    | 08 00 02 00 00 00 |
-| 550 | Clutch Pressed 1-byte  | 6    | 01 00 02 00 00 00 |
+| 550 | Highbeam 1-byte | 6    | 08 ** ** ** ** ** |
+| 550 | Clutch Pressed  | 6    | 01 ** ** ** ** ** |
 | 550 | Menu/Scroll     | 8    | 04 06 00 00 00 B4 00 FF |
-| 544 | Throttle 1-byte  | 8    | C8 C2 00 00 00 00 00 00 |
-| 542 | Jiffystand up   | 8    | 00 A0 00 00 00 00 00 00 |
-| 542 | Jiffystand down | 8    | 30 A0 00 00 00 00 00 00 |
-| 532 | Security pin code | 8    | ** ** ** ** ** ** ** ** |
+| 544 | Throttle        | 8    | C8 ** ** ** ** ** ** ** |
+| 542 | Jiffystand up   | 8    | 00 ** ** ** ** ** ** ** |
+| 542 | Jiffystand down | 8    | 30 ** ** ** ** ** ** ** |
+| 532 | Pin Code        | 8    | ** ** ** ** ** ** ** ** |
+| 530 | Battery voltage | 8    | ** ** ** ** ** xx ** ** |
+| 530 | Neutral Light / neutral gear? | 8    | ** ** 81 ** ** ** ** ** |
 | 7E1 | ABS             | ?    | ** ** ** ** ** ** ** ** |
 | 7E9 | ABS 2           | ?    | ** ** ** ** ** ** ** ** |
 | 7E2 | BCM             | ?    | ** ** ** ** ** ** ** ** |
