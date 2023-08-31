@@ -59,6 +59,7 @@ My files are modified for 8mhz chrystal make sure your MCP2515 has the same or c
 | 544 | Throttle 1-byte  | 8    | C8 C2 00 00 00 00 00 00 |
 | 542 | Jiffystand up   | 8    | 00 A0 00 00 00 00 00 00 |
 | 542 | Jiffystand down | 8    | 30 A0 00 00 00 00 00 00 |
+| 532 | Security pin code | 8    | ** ** ** ** ** ** ** ** |
 | 7E1 | ABS             | ?    | ** ** ** ** ** ** ** ** |
 | 7E9 | ABS 2           | ?    | ** ** ** ** ** ** ** ** |
 | 7E2 | BCM             | ?    | ** ** ** ** ** ** ** ** |
