@@ -69,10 +69,9 @@ My files are modified for 8mhz chrystal make sure your MCP2515 has the same or c
 | 7E0 | ECU             | ?    | ** ** ** ** ** ** ** ** |
 | 7E8 | ECU 2           | ?    | ** ** ** ** ** ** ** ** |
 
-Batteryforumla, Convert xx to decimal xx*0,05+5 
 
 
 
-![image](https://github.com/sofresh007/Harley-Davidson-CAN-Bus/assets/76256425/9332c610-d193-4497-af33-7e514bb32e6f)
-
+## RealDash Implementation
+Coming Soon!
 
